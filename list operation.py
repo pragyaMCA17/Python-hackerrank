@@ -1,7 +1,7 @@
 def listOperation():
     arr = []
-    for i in range(int(input())):
-        s = input().split()
+    for i in range(int(input("enter number of operations "))):
+        s = input("enter operation to be performed").split()
         for i in range(1,len(s)):
             s[i] = int(s[i])
         if s[0] == "append":
