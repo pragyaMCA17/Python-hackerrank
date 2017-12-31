@@ -1,9 +1,9 @@
 def second_lowest():
     x=[]
     students=[]
-    for _ in range(int(input())):
-        name = input()
-        score = float(input())
+    for _ in range(int(input())):     #number of students
+        name = input()                #name of student
+        score = float(input())        #number of that student
         x.append(score)
         students.append([name,score])
     x.sort()
