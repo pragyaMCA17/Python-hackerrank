@@ -1,4 +1,4 @@
-def String_type():
+def string_type():
     S = input()
     print (any([char.isalnum() for char in S]))
     print (any([char.isalpha() for char in S]))
